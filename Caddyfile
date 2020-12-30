@@ -1,0 +1,13 @@
+{
+  http_port 8080
+  admin off
+}
+
+http://myurl.appuioapp.ch  {
+  respond /healthz "OK" 200
+  header Cache-Control no-cache
+  reverse_proxy https://asdf.ngrok.io  {
+      header_up Host {http.reverse_proxy.upstream.hostport}
+  }
+}
+
