@@ -5,7 +5,7 @@
 #    pip-compile requirements.in
 #
 cachetools==4.2.2         # via google-auth
-certifi==2020.12.5        # via kubernetes, requests
+certifi==2021.5.30        # via kubernetes, requests
 chardet==4.0.0            # via requests
 google-auth==1.35.0       # via kubernetes
 idna==2.10                # via requests
