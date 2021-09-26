@@ -20,7 +20,7 @@ requests==2.26.0
 rsa==4.7.2                  # via google-auth
 six==1.16.0               # via google-auth, kubernetes, python-dateutil, websocket-client
 urllib3==1.26.7           # via kubernetes, requests
-websocket-client==0.57.0  # via kubernetes
+websocket-client==0.59.0  # via kubernetes
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
