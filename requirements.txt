@@ -14,7 +14,7 @@ charset-normalizer==2.0.7
     # via requests
 google-auth==2.3.0
     # via kubernetes
-idna==3.2
+idna==3.3
     # via requests
 kubernetes==18.20.0
     # via -r requirements.in
